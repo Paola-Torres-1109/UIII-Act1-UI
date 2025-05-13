@@ -44,27 +44,27 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
         children: <Widget>[
           makePage(
             page: 1,
-            image: 'assets/images/one.jpg',
-            title: 'Yosemite National Park',
-            description: 'Yosemite National Park is in California’s Sierra Nevada mountains.'
+            image: 'https://raw.githubusercontent.com/Paola-Torres-1109/UIII-Act1-UI/refs/heads/main/assets/bmw.jpg',
+            title: 'BMW',
+            description: 'Marcas Alemanas directo a ti'
           ),
           makePage(
             page: 2,
-            image: 'assets/images/two.jpg',
-            title: 'Golden Gate Bridge',
-            description: 'The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide strait.'
+            image: 'https://raw.githubusercontent.com/Paola-Torres-1109/UIII-Act1-UI/refs/heads/main/assets/camaro.jpg',
+            title: 'Chevrolet',
+            description: 'Deportivo, potencia, estilo y adrenalina en cada curva.'
           ),
           makePage(
             page: 3,
-            image: 'assets/images/three.jpg',
-            title: 'Sedona',
-            description: "Sedona is regularly described as one of America's most beautiful places."
+            image: 'https://raw.githubusercontent.com/Paola-Torres-1109/UIII-Act1-UI/refs/heads/main/assets/civic.jpg',
+            title: 'Honda',
+            description: "Eficiencia, estilo y confianza para cada camino."
           ),
           makePage(
             page: 4,
-            image: 'assets/images/four.jpg',
-            title: 'Savannah',
-            description: "Savannah, with its Spanish moss, Southern accents and creepy graveyards, is a lot like Charleston, South Carolina."
+            image: 'https://raw.githubusercontent.com/Paola-Torres-1109/UIII-Act1-UI/refs/heads/main/assets/vw.jpg',
+            title: 'Volkawagen',
+            description: "Ingeniería alemana que combina calidad, confort y estilo atemporal."
           ),
         ],
       ),
@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
     return Container(
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage(image),
+          image: NetworkImage(image),
           fit: BoxFit.cover
         )
       ),
