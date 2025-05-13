@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
           makePage(
             page: 4,
             image: 'https://raw.githubusercontent.com/Paola-Torres-1109/UIII-Act1-UI/refs/heads/main/assets/vw.jpg',
-            title: 'Volkawagen',
+            title: 'Volkswagen',
             description: "Ingeniería alemana que combina calidad, confort y estilo atemporal."
           ),
         ],
